@@ -1,0 +1,133 @@
+// 1450px
+@include xxxxlg-xxxxxlg {
+    // @include hero-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+    @include hero-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+    @include hero-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+    @include hero-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    // h1,h2 {
+    //     font-size: 38px;
+    //     line-height: 44px;
+    // }
+    h6 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    // body {
+    //     font-size: 20px;
+    //     line-height: 26px;
+    // }
+    @include hero-lg-xlg;
+    @include touch-lg-xlg;
+    @include footer-lg-xlg;
+
+}
+// 930px
+@include md-lg {
+    // h1,h2 {
+    //     font-size: 32px;
+    //     line-height: 38px;
+    // }
+    // body {
+    //     font-size: 17px;
+    //     line-height: 25px;
+    // }
+    @include hero-md-lg;
+    @include intro-md-lg;
+    @include touch-md-lg;
+    @include footer-md-lg;
+
+}
+// 750px
+@include sm-md {
+    .auto__container {
+        padding: 0 20px;
+    }
+    @include hero-sm-md;
+    @include intro-sm-md;
+    @include touch-sm-md;
+    @include footer-sm-md;
+
+}
+// 650px
+@include sm-md-extra {
+    @include hero-sm-md-extra;
+}
+// 540px
+@include xsm-sm  {
+    h1,h2 {
+        font-size: 42px;
+        line-height: 46px;
+    }
+    // h6 {
+    //     font-size: 14px;
+    //     line-height: 18px;
+    // }
+    // body {
+    //     font-size: 15px;
+    //     line-height: 23px;
+    // }
+    // .button {
+    //     font-size: 15px;
+    //     padding: 6px;
+    // }
+    @include hero-xsm-sm;
+    @include intro-xsm-sm;
+    @include touch-xsm-sm;
+    @include footer-xsm-sm;
+
+}
+// 440px
+@include xxsm-xsm  {
+    @include hero-xxsm-xsm;
+}
+// 360px
+@include xxxsm-xxsm  {
+    .auto__container {
+        padding: 0 15px;
+    }
+    h1, h2 {
+        font-size:28px !important;
+        line-height: 34px !important;
+    }
+    h3 {
+        font-size: 70px;
+    }
+    h5 {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    body {
+        font-size: 17px;
+        line-height: 24px;
+    }
+    p {
+        &.big {
+            font-size: 17px;
+            line-height: 24px;
+        }
+    }
+    .intro {
+        &__inner {
+            &-title {
+                min-height: 240px;
+            }
+        }
+    }
+    // @include hero-xxxsm-xxsm;
+}
+

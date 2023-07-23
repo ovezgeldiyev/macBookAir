@@ -1,0 +1,80 @@
+h1 {
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 60px;
+    letter-spacing: -0.02rem;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 50px;
+    letter-spacing: -0.02rem;
+    span {
+        color: $gray;
+        display: block;
+    }
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 80%;
+    text-align: center;
+    letter-spacing: -0.2rem;
+
+    span {
+        font-size: 70%;
+    }
+}
+
+h4 {
+
+}
+
+h5 {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+p {
+    &.big {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    &.sm {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+.main {
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+.button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    line-height: 100%;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 100px;
+    color: #86868b;
+    border: 1px solid #86868b;
+    cursor: pointer;
+    transition: .3s ease;
+    &:hover {
+        opacity: .8;
+    }
+    &:focus {
+        box-shadow: 0 0 0 4px rgba(0, 125, 250, .8);
+        border-color: transparent;
+    }
+}
