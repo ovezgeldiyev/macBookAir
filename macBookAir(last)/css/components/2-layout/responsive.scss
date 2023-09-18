@@ -1,0 +1,136 @@
+// 1450px
+@include xxxxlg-xxxxxlg {
+  // @include hero-xxxxlg-xxxxxlg;
+}
+// 1380px
+@include xxxlg-xxxxlg {
+//   @include hero-xxxlg-xxxxlg;
+}
+// 1250px
+@include xlg-xxlg-extra {
+//   @include hero-xlg-xxlg-extra;
+}
+// 1180px
+@include xlg-xxlg {
+//   @include hero-xlg-xxlg;
+}
+// 1024px
+@include lg-xlg {
+  .main {
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    h6 {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+  @include hero-lg-xlg;
+
+}
+// 930px
+@include md-lg {
+  .main {
+    h3 {
+      font-size: 70px;
+    }
+  }
+  @include hero-md-lg;
+
+}
+// 750px
+@include sm-md {
+  .main {
+    h1 {
+      font-size: 50px;
+      line-height: 55px;
+    }
+    h3 {
+      font-size: 90px;
+    }
+    p {
+      &.big {
+        font-size: 22px;
+        line-height: 28px;
+      }
+    }
+    .auto__container {
+      padding: 0 20px;
+    }
+  }
+  @include hero-sm-md;
+
+}
+// 650px
+@include sm-md-extra {
+//   @include hero-sm-md-extra;
+}
+// 540px
+@include xsm-sm {
+  .main {
+    h2 {
+      font-size: 42px;
+      line-height: 46px;
+    }
+    h5 {
+      font-size: 21px;
+      line-height: 28px;
+    }
+    body {
+      font-size: 21px;
+      line-height: 28px;
+    }
+    p {
+      &.big {
+        font-size: 21px;
+        line-height: 28px;
+      }
+    }
+  }
+  @include hero-xsm-sm;
+
+}
+// 440px
+@include xxsm-xsm {
+//   @include hero-xxsm-xsm;
+}
+// 360px
+@include xxxsm-xxsm {
+  .main {
+    .auto__container {
+      padding: 0 15px;
+    }
+    h1 {
+      font-size: 40px;
+      line-height: 45px;
+    }
+    h2 {
+      font-size: 33px !important;
+      line-height: 38px !important;
+    }
+    h3 {
+      font-size: 70px;
+    }
+    h5 {
+      font-size: 17px;
+      line-height: 24px;
+    }
+    body {
+      font-size: 17px;
+      line-height: 24px;
+    }
+    p {
+      &.big {
+        font-size: 17px;
+        line-height: 24px;
+      }
+    }
+    &-intro {
+      &__inner {
+        &-title {
+          min-height: 240px;
+        }
+      }
+    }
+  }
+}
